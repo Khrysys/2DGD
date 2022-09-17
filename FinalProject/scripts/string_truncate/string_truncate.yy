@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "open",
+  "name": "string_truncate",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "file",
-    "path": "folders/Scripts/file.yy",
+    "name": "string",
+    "path": "folders/Scripts/string.yy",
   },
 }

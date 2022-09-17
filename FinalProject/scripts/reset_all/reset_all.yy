@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "open",
+  "name": "reset_all",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "file",
-    "path": "folders/Scripts/file.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }

@@ -3,8 +3,6 @@
 
 show_debug_message(string(window_get_width()) + ", " + string(window_get_height()))
 
-global.saveID = 0;
-
 if(mouse_x >= global.save_button_offset_x && mouse_x <= window_get_width() - global.save_button_offset_x) {
 	if(mouse_y >= window_get_height() - 700 && mouse_y <= window_get_height() - 550) {
 		global.saveID = 1;
@@ -20,5 +18,14 @@ if(mouse_x >= global.save_button_offset_x && mouse_x <= window_get_width() - glo
 show_debug_message(string(global.saveID))
 
 if(global.saveID != 0) {
-	global.current_floor = get_current_floor()
+	if(!file_exists("save_1.json")) {
+		create_new_save();
+	}
+	
+	result = load_save_data();
+	if(result) {
+		room = game_room;
+	} else {
+		reset_all();
+	}
 }

@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "open",
+  "name": "create_new_save",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "file",
-    "path": "folders/Scripts/file.yy",
+    "name": "save_io",
+    "path": "folders/Scripts/save_io.yy",
   },
 }

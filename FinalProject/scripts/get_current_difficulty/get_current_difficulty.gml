@@ -1,6 +1,5 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function load_floor(){
-	ftext = load_file_as_array(string(global.current_floor) + string(global.difficulty))
-	
+function get_current_difficulty(){
+	return true;
 }

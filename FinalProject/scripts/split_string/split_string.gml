@@ -3,7 +3,7 @@
 function split_string(str, delimeter){
 	var out;
 	var slot = 0;
-	var str2;
+	var str2 = "";
 	var curStr;
 	
 	for(var i = 1; i < (string_length(str)+1); i++) {
