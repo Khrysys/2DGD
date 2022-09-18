@@ -5,7 +5,7 @@ function reset_all(){
 	global.difficulty = -1;
 	global.layout = [];
 	global.save_button_offset_x = 200;
-	global.saveID = 0;
+	global.saveName = "";
 	if(room != init_room) {
 		room=init_room;
 	}
