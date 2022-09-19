@@ -34,12 +34,12 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room78","path":"rooms/Room78/Room78.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
     {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"roomId":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
-    {"roomId":{"name":"Room78","path":"rooms/Room78/Room78.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
     {"roomId":{"name":"Loss","path":"rooms/Loss/Loss.yy",},},
   ],
