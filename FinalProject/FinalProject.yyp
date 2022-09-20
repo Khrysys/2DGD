@@ -8,7 +8,6 @@
     {"id":{"name":"load_current_player_position","path":"scripts/load_current_player_position/load_current_player_position.yy",},"order":6,},
     {"id":{"name":"create_new_save","path":"scripts/create_new_save/create_new_save.yy",},"order":0,},
     {"id":{"name":"GameController","path":"objects/GameController/GameController.yy",},"order":3,},
-    {"id":{"name":"game_room","path":"rooms/game_room/game_room.yy",},"order":1,},
     {"id":{"name":"get_current_difficulty","path":"scripts/get_current_difficulty/get_current_difficulty.yy",},"order":1,},
     {"id":{"name":"get_current_floor","path":"scripts/get_current_floor/get_current_floor.yy",},"order":2,},
     {"id":{"name":"string_truncate","path":"scripts/string_truncate/string_truncate.yy",},"order":1,},
@@ -35,7 +34,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"init_room","path":"rooms/init_room/init_room.yy",},},
-    {"roomId":{"name":"game_room","path":"rooms/game_room/game_room.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
