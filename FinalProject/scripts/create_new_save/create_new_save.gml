@@ -8,7 +8,7 @@ function create_new_save(){
 		return -1;
 	}
 	
-	var json_starting_config = "\"PlayerData\":{\n\t\"Level\": 1,\n\t\"Inventory\": {\n\t\t1: {\n\t\t\t\"id\"\t: 0\n\t\t}\n\t}\n}";
+	var json_starting_config = "\"PlayerData\":{\n\t\"Level\": 1,\n\t\"Inventory\": {\n\t\t1: {\n\t\t\t\"id\"\t: 0,\n\t\t\t\"mode\": 0\n\t\t}\n\t}\n}";
 	show_debug_message(json_starting_config);
 	file_text_write_string(f, json_starting_config);
 	file_text_close(f);
