@@ -3,14 +3,13 @@
 
 if(global.saveName == "") {
 	draw_set_color(c_white);
-	draw_rectangle(center_load_box_offset + 45, center_load_box_offset + 45, ((window_get_width() - center_load_box_offset) / 2) - 5, (window_get_height() - center_load_box_offset) - 45, false);
-	draw_set_color(c_gray);
-	draw_rectangle(center_load_box_offset + 50, center_load_box_offset + 50, ((window_get_width() - center_load_box_offset)) / 2 - 10, (window_get_height() - center_load_box_offset) - 50, false);
+	draw_rectangle(center_load_box_offset + 45, center_load_box_offset + 45, (window_get_width() / 2) - 45, (window_get_height() - center_load_box_offset) - 45, false);
+	draw_rectangle((window_get_width() / 2) + 45, center_load_box_offset + 45, (window_get_width() - center_load_box_offset) - 45, (window_get_height() - center_load_box_offset) - 45, false);
 	
-	draw_set_color(c_white);
-	draw_rectangle(((window_get_width() - center_load_box_offset) / 2) + 15, center_load_box_offset + 45, (window_get_width() - center_load_box_offset) - 45, (window_get_height() - center_load_box_offset) - 45, false);
 	draw_set_color(c_gray);
-	draw_rectangle(((window_get_width() - center_load_box_offset) / 2) + 20, center_load_box_offset + 50, (window_get_width() - center_load_box_offset) - 50, (window_get_height() - center_load_box_offset) - 50, false);
+	draw_rectangle(center_load_box_offset + 50, center_load_box_offset + 50, (window_get_width() / 2) - 50, (window_get_height() - center_load_box_offset) - 50, false);
+	draw_rectangle((window_get_width() / 2) + 50, center_load_box_offset + 50, (window_get_width() - center_load_box_offset) - 50, (window_get_height() - center_load_box_offset) - 50, false);
+	
 	draw_set_color(c_white);
 	draw_rectangle(center_load_box_offset, center_load_box_offset, window_get_width() - center_load_box_offset, window_get_height() - center_load_box_offset, true);
 	draw_set_font(Save_File_IO_font)

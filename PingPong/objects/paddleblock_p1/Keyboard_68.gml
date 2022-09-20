@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-x = x + movespeed
+x = x + Ball.speed;

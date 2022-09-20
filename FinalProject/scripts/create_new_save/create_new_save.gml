@@ -5,7 +5,7 @@ function create_new_save(){
 	if(f == "") {
 		global.saveName = f;
 	} else {
-		return -1;
+		return;
 	}
 	
 	var json_starting_config = "\"PlayerData\":{\n\t\"Level\": 1,\n\t\"Inventory\": {\n\t\t1: {\n\t\t\t\"id\"\t: 0\n\t\t}\n\t}\n}";
