@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function load_save_data() {
-	var f = get_open_filename("DG Save File|*.sv", "New Save.sv");
+	var f = get_save_filename("DG Save File|*.sv", "New Save.sv");
 	if(f != "") {
 		global.saveName = f;
 	} else {
