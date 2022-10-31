@@ -170,7 +170,7 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "FinalProject",
-    "path": "FinalProject.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }

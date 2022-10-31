@@ -34,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "FinalProject",
-    "path": "FinalProject.yyp",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
