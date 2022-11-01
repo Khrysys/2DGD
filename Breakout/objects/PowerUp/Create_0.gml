@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-move_bounce_all(true);
-score += 100;
+speed = 2;
+direction = 270;
