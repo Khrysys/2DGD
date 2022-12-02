@@ -10,8 +10,8 @@ if(instance_exists(Block)) {
 		while(instance_exists(Ball)) {
 			instance_destroy(Ball);
 		}
-		draw_text(0, 10, "You Lost");
+		draw_text(0, 12, "You Lost");
 	}
 } else {
-	draw_text(0, 10, "You Win");
+	draw_text(0, 12, "You Win");
 }

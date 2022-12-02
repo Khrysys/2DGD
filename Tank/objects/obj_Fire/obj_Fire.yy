@@ -6,7 +6,7 @@
     "name": "spr_fire",
     "path": "sprites/spr_fire/spr_fire.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
