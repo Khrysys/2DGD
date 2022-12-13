@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Change sprite color, draw name
 // You can write your code in this editor
 
 draw_sprite_ext(current_sprite, -1, x, y, 1, 1, 0, color, 1);
