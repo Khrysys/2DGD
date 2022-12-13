@@ -25,7 +25,7 @@
     {"id":{"name":"spr_room_exit","path":"sprites/spr_room_exit/spr_room_exit.yy",},"order":5,},
     {"id":{"name":"spr_concrete","path":"sprites/spr_concrete/spr_concrete.yy",},"order":1,},
     {"id":{"name":"spr_del_save","path":"sprites/spr_del_save/spr_del_save.yy",},"order":7,},
-    {"id":{"name":"array_concancate","path":"scripts/array_concancate/array_concancate.yy",},"order":8,},
+    {"id":{"name":"save_items","path":"scripts/save_items/save_items.yy",},"order":8,},
     {"id":{"name":"obj_loader","path":"objects/obj_loader/obj_loader.yy",},"order":0,},
     {"id":{"name":"spr_player_front_right","path":"sprites/spr_player_front_right/spr_player_front_right.yy",},"order":2,},
     {"id":{"name":"fnt_stat_bolded","path":"fonts/fnt_stat_bolded/fnt_stat_bolded.yy",},"order":0,},

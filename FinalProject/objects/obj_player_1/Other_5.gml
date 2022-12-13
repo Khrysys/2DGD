@@ -16,5 +16,5 @@ ini_write_real(sector, "cmp", current_mp);
 ini_write_real(sector, "atk", atk);
 ini_write_real(sector, "def", def);
 ini_write_real(sector, "spd", spd);
-ini_write_string(sector, "items", array_concancate(items, ";"));
+ini_write_string(sector, "items", items_to_string(items, ";"));
 ini_close();

@@ -16,7 +16,23 @@ atk = ini_read_real(sector, "atk", 5);
 def = ini_read_real(sector, "def", 5);
 spd = ini_read_real(sector, "spd", 5);
 items = string_split(ini_read_string(sector, "items", ";;;;;;;;"), ";");
-show_debug_message(string(items));
+array_resize(items, 9);
+for(i = 0; i < array_length(items); i++) {
+	item = ds_map_create();
+	ds_map_set(item, "name", items[i]);
+	ds_map_set(item, "type", ini_read_string(items[i], "type", "none"));
+	if(ds_map_find_value(item, "type" == "weapon")) {
+		ds_map_set(item, "atk", ini_read_string(items[i], "atk", "0"));
+		ds_map_set(item, "spd", ini_read_string(items[i], "spd", "0"));
+		ds_map_set(item, "cap", ini_read_string(items[i], "cap", "1"));
+		ds_map_set(item, "rspd", ini_read_string(items[i], "rspd", "0"));
+		ds_map_set(item, "opt", ini_read_string(items[i], "opt", "0"));
+		ds_map_set(item, "fal", ini_read_string(items[i], "fal", "0"));
+		ds_map_set(item, "max", ini_read_string(items[i], "max", "0"));
+	}
+	items[i] = item;
+	show_debug_message(string(item))
+}
 ini_close();
 
 pause_display = 0

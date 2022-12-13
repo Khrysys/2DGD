@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "array_concancate",
+  "name": "save_items",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
