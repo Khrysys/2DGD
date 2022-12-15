@@ -34,7 +34,7 @@ if(mouse_x >= 100 && mouse_x < window_get_width() - 100) {
 		global.SAVE_NAME = "3.ini"
 		ini_open(global.SAVE_NAME);
 		var name = ini_read_string("player1", "name", "New Save");
-		show_debug_message(ini_close());
+		ini_close()
 		if(name = "New Save") {
 			room = room_new_save;
 		} else {

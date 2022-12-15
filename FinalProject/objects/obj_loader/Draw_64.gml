@@ -24,7 +24,6 @@ name = ini_read_string("player1", "name", "New Save");
 ini_close();
 
 
-draw_text(window_get_width() / 2, 250 + box_height, name);
 
 ini_open("3.ini");
 draw_rectangle_color(0,  150 + (2 * box_height), window_get_width(), 150 + (2 * (100 + box_height)), color1, color2, ini_read_real("player2", "color", c_black), ini_read_real("player1", "color", c_black), false);
@@ -33,6 +32,7 @@ color2 = ini_read_real("player2", "color", c_black);
 draw_rectangle_color(0, 150 + (2 * (100 + box_height)), window_get_width(), window_get_height(), color1, color2, c_black, c_black, false);
 draw_rectangle_color(100, 200 + box_height, window_get_width() - 100, 2 * (100 + box_height), 
 		c_black, c_black, c_black, c_black, false);
+draw_text(window_get_width() / 2, 250 + box_height, name);
 var name = ini_read_string("player1", "name", "New Save");
 ini_close();
 

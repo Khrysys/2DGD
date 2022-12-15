@@ -1,11 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function reset_all(){
-	global.current_floor = -1;
-	global.difficulty = 0;
-	global.layout = [[]];
-	global.saveName = "";
-	if(room != room_init) {
-		room = room_init;
-	}
+	file_delete("1.ini");
+	file_delete("2.ini");
+	file_delete("3.ini");
 }

@@ -1,6 +1,7 @@
 /// @description Draw UI in corner + pause menu
 // You can write your code in this editor
 draw_set_color(c_black);
+draw_rectangle(0, 0, 66, 126 + (65 * array_length(items)) , false);
 draw_rectangle(0, 0, 350, 40, false);
 draw_rectangle(0, 40, 300, 80, false);
 draw_set_color(c_red);
@@ -18,7 +19,14 @@ draw_set_color(c_black);
 draw_circle(25, 25, 100, true);
 draw_text(10, 10, name);
 draw_text(10, 35, "Level " + string(lvl));
-	
+
+for(var i = 0; i < array_length(items); i++) {
+	if(ds_map_find_value(items[i], "name") != "") {
+		draw_sprite(ds_map_find_value(items[i], "spr"), 0, 1, 125 + (i * 65));
+		draw_sprite(ds_map_find_value(items[i], "rar"), 0, 1, 125 + (i * 65));
+	}
+}
+
 if(global.IS_PAUSED) {
 	draw_set_alpha(0.4);
 	draw_rectangle_color(0, 0, window_get_width(), window_get_height(), c_black, c_black, c_black, c_black, false);	
