@@ -9,9 +9,10 @@ function save_items(player, items){
 	
 	for(var i = 0; i < array_length(items); i++) {
 		if(ds_map_find_value(items[i], "name") != "") {
-			ini_write_string(ds_map_find_value(items[i], "name"), "type", ds_map_find_value(items[i], "type"));
+			var name = ds_map_find_value(items[i], "name");
+			ini_write_string(name, "type", ds_map_find_value(items[i], "type"));
 			if(ds_map_find_value(items[i], "type") == "weapon") {
-				ini_write_string(ds_map_find_value(items[i], "name"), "atk", ds_map_find_value(items[i], "atk"));	
+				ini_write_string(name, "atk", ds_map_find_value(items[i], "atk"));	
 				ini_write_string(ds_map_find_value(items[i], "name"), "spd", ds_map_find_value(items[i], "spd"));
 				ini_write_string(ds_map_find_value(items[i], "name"), "cap", ds_map_find_value(items[i], "cap"));
 				ini_write_string(ds_map_find_value(items[i], "name"), "rspd", ds_map_find_value(items[i], "rspd"));
